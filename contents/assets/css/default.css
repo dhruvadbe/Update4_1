@@ -1,0 +1,190 @@
+/*Created with Adobe RoboHelp.*/
+body {
+  font-family: Calibri;
+  font-size: 14px;
+  counter-reset: p\.autonumber11 0 p\.autonumber1t1 0;
+}
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+h3 {
+  font-weight: bold;
+  font-size: 19px;
+}
+h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+h5 {
+  font-weight: bold;
+  font-size: 13px;
+}
+h6 {
+  font-weight: bold;
+  font-size: 11px;
+}
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #FF0000;
+  font-size: 1px;
+}
+a.expandspot {
+  color: #008000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.expandtext {
+  font-style: italic;
+  font-weight: normal;
+  color: #ff0000;
+}
+a.dropspot {
+  cursor: pointer;
+  color: #008000;
+  font-style: italic;
+  text-decoration: none;
+}
+a.glossterm {
+  color: #800000;
+  cursor: pointer;
+  font-style: italic;
+  text-decoration: none;
+}
+span.glosstext {
+  font-style: italic;
+  font-weight: normal;
+  color: #0000ff;
+}
+ol {}
+ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+a.minitoc-caption {
+  text-decoration: none;
+  color: initial;
+  font-weight: bold;
+}
+p.minitoc-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.minitoc-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+ol.minitoc-list ol {
+  list-style: none;
+}
+a {}
+a.minitoc-list-item {}
+div.breadcrumbs {}
+span.breadcurmbs-home-prefix {}
+a.breadcurmbs-home {}
+.breadcurmbs-separator {}
+a.breadcrumbs-link {}
+a.breadcrumbs-topic {}
+p.seealso-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.seealso-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.seealso-list-item {}
+p.reltopics-caption {
+  font-weight: bold;
+  font-size: 16px;
+}
+ol.reltopics-list {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+a.reltopics-list-item {}
+ul.Disc {
+  list-style-type: disc;
+}
+ul.Circle {
+  list-style-type: circle;
+}
+ol.Decimal {
+  list-style-type: decimal;
+}
+p.autonumber1 {
+  --autonumber: autonumber;
+}
+p.autonumber1t {
+  --autonumber: autonumber;
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --vertical-spacing: 0px;
+  margin-left: 0px;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  position: relative;
+}
+:not([data-list-level])+[data-list-level="2"] {
+  counter-reset: item2 0;
+}
+[data-list-level="2"]+[data-list-level="3"] {}
+p.autonumber1:before {}
+p.autonumber1t:before {
+  counter-increment: p\.autonumber1t1;
+  content: counter(p\.autonumber1t1, decimal);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.autonumber1[data-list-level="2"] {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --vertical-spacing: 0px;
+  margin-left: 12px;
+  position: relative;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  color: #00FFFF;
+}
+p.autonumber1t[data-list-level="2"] {
+  --prefix-size: 40px;
+  --prefix-fixed-size: false;
+  --prefix-gap: 4px;
+  --vertical-spacing: 0px;
+  margin-left: 12px;
+  position: relative;
+  margin-top: calc(var(--vertical-spacing) / 2);
+  margin-bottom: calc(var(--vertical-spacing) / 2);
+  color: #00FFFF;
+}
+p.autonumber1[data-list-level="2"]:before {
+  counter-increment: item2;
+  content: counter(item2, upper-roman);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+p.autonumber1t[data-list-level="2"]:before {
+  counter-increment: item2;
+  content: counter(item2, upper-roman);
+  text-align: left;
+  left: calc(-1 * var(--prefix-size) - var(--prefix-gap));
+  margin-right: var(--prefix-gap);
+  width: var(--prefix-size);
+}
+ol>li {}
+ol>li:before {}

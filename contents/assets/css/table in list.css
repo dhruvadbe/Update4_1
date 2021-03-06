@@ -1,0 +1,59 @@
+table.GridTable1LightAccent2 {
+    border-top: solid #F7CAAC 1.0pt;
+    padding-top: 0;
+    border-bottom: solid #F7CAAC 1.0pt;
+    padding-bottom: 0;
+    border-left: solid #F7CAAC 1.0pt;
+    padding-left: 0;
+    border-right: solid #F7CAAC 1.0pt;
+    padding-right: 0;
+}
+p.ListParagraph {
+    margin-left: 0.50in;
+}
+p.Numbering1 {
+    counter-reset: Numbering02;
+    margin-left: 0.50in;
+    --autonumber: autonumber;
+}
+p.Numbering1::before {
+    counter-increment: Numbering01;
+    content: counter(Numbering01,decimal)".";
+    display: inline-flex;
+    width: 0.25in;
+    margin-left: 0.25in;
+    content-margin-left: 0.50in;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+table.TableGrid {
+    border-top: solid windowtext 1.0pt;
+    padding-top: 0;
+    border-bottom: solid windowtext 1.0pt;
+    padding-bottom: 0;
+    border-left: solid windowtext 1.0pt;
+    padding-left: 0;
+    border-right: solid windowtext 1.0pt;
+    padding-right: 0;
+}
+body {
+counter-reset:Numbering01 ;
+    font-size: 12pt;
+    font-family: Calibri;
+}
+span { white-space: pre-wrap;
+}
+table.GridTable1LightAccent2 td {
+    padding-top: 0pt;
+    padding-left: 5.4pt;
+    padding-bottom: 0pt;
+    padding-right: 5.4pt;
+}
+table.TableGrid td {
+    padding-top: 0pt;
+    padding-left: 5.4pt;
+    padding-bottom: 0pt;
+    padding-right: 5.4pt;
+}

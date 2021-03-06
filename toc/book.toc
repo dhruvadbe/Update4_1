@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map type="booktoc">
+  <title>book</title>
+  <page href="../contents/table test w.htm" format="html" processing-role="normal"></page>
+</map>

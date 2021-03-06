@@ -1,0 +1,95 @@
+p.ListParagraph {
+    margin-left: 0.50in;
+}
+p.Numbering1 {
+    counter-reset: Numbering12;
+    margin-left: 0.50in;
+    --autonumber: autonumber;
+}
+p.Numbering1::before {
+    content: "•";
+    font-family: Symbol;
+    display: inline-flex;
+    width: 0.25in;
+    margin-left: 0.25in;
+    content-margin-left: 0.50in;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+p.Numbering2 {
+    counter-reset: Numbering52;
+    margin-left: 0.50in;
+    --autonumber: autonumber;
+}
+p.Numbering2::before {
+    counter-increment: Numbering51;
+    content: counter(Numbering51,decimal)".";
+    display: inline-flex;
+    width: 0.25in;
+    margin-left: 0.25in;
+    content-margin-left: 0.50in;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+p.Numbering5 {
+    counter-reset: Numbering42;
+    margin-left: 0.25in;
+    --autonumber: autonumber;
+}
+p.Numbering5::before {
+    counter-increment: Numbering41;
+    content: counter(Numbering41,decimal)".";
+    display: inline-flex;
+    width: 0.25in;
+    margin-left: 0;
+    content-margin-left: 0.25in;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+p.Numbering6 {
+    counter-reset: Numbering02;
+    --autonumber: autonumber;
+}
+p.Numbering6::before {
+    counter-increment: Numbering01;
+    content: "Chapter "counter(Numbering01,decimal);
+    margin-left: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+p.Numbering7 {
+    counter-reset: Numbering62;
+    margin-left: 0.25in;
+    --autonumber: autonumber;
+}
+p.Numbering7::before {
+    counter-increment: Numbering61;
+    content: counter(Numbering61,decimal)"))";
+    font-family: 'Baskerville Old Face', 'serif';
+    color: #FF0000;
+    display: inline-flex;
+    width: 0.25in;
+    margin-left: 0;
+    content-margin-left: 0.25in;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    text-align: right;
+}
+body {
+counter-reset:Numbering51 Numbering41 Numbering42 Numbering43 Numbering01 Numbering61 Numbering62 Numbering63 Numbering64 Numbering21 Numbering22 ;
+    line-height: 1.08;
+    margin-bottom: 8pt;
+    font-size: 11pt;
+    font-family: Calibri;
+}
+span { white-space: pre-wrap;
+}
